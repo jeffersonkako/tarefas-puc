@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="profile">
+          <img src="assets/profile.png" alt="Perfil" />
+          <h2>Jefferson Kako</h2>
+          <p>
+            Desenvolvedor Front-End com experiência em html, css, javascript,
+            react, react native, nodejs, dart, flutter, swift, git, docker,
+            figma, aws, firebase.
+            <br />
+            <br />
+            Apaixonado por tecnologia e por aprender coisas novas, sempre
+            buscando novos desafios e conhecimentos .
+          </p>
+        </div>
+        <nav class="menu">
+          <a href="https://jefferson.dev" target="_blank">Meu Site</a>
+          <a href="https://github.com/jeffersonkako" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/jeffersonkako" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://instagram.com/jeffersonkako" target="_blank"
+            >Instagram</a
+          >
+        </nav>
+      </aside>
+      <main class="main-content">
+        <h1>Lista de Tarefas</h1>
+        <div class="task-columns">
+          <div class="time-slot day">
+            <h2>Dia</h2>
+            <ul id="dayTasks"></ul>
+            <button onclick="mostrarModal('day')">Adicionar Tarefa Dia</button>
+          </div>
+          <div class="time-slot night">
+            <h2>Noite</h2>
+            <ul id="nightTasks"></ul>
+            <button onclick="mostrarModal('night')">
+              Adicionar Tarefa Noite
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div id="taskModal" class="modal">
+      <div class="modal-container">
+        <div class="modal-content">
+          <h4>Adicionar Nova Tarefa</h4>
+          <input
+            type="text"
+            id="taskInput"
+            class="task-input"
+            placeholder="Digite a nova tarefa"
+          />
+        </div>
+        <div class="modal-footer">
+          <button class="btn cancel" onclick="fecharModal()">Cancelar</button>
+          <button class="btn save" onclick="salvarTarefa()">
+            Salvar Tarefa
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

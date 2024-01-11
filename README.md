@@ -2,9 +2,13 @@
 
 Este é um projeto simples de Lista de Tarefas desenvolvido para demonstrar habilidades em HTML, CSS e JavaScript. O objetivo deste projeto é criar uma interface intuitiva e responsiva onde os usuários possam adicionar tarefas que precisam ser feitas durante o dia ou à noite e ter a capacidade de excluí-las conforme necessário.
 
-![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/1d729bbf-a6e8-4030-85cc-5d08dede076e)
-![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/e5123516-1aa2-4b9a-bced-7da7bf74bf0a)
-![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/f1375504-1ca4-4d19-b3f2-53dfddc86145)
+![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/91f4add6-037d-4008-b2d7-1dca22ca152e)
+
+![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/4efc47c3-99cb-42f8-8900-9b58e37bf002)
+
+![image](https://github.com/jeffersonkako/tarefas-puc/assets/104142117/ff2d407c-bbe7-44a0-a6c8-8d5dca0a5c1e)
+
+
 
 
 
